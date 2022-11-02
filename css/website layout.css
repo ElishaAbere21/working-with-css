@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+/* style the header */
+.header{
+    background-color:whitesmoke;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* style top navigation bar */
+.topnav{
+    overflow: hidden;
+    background-color:white;
+    color: black;
+}
+.home
+{
+    margin-left:35%;
+}
+/* style the topnav links */
+.topnav a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+}
+/* change color on hover */
+.topnav a:hover{
+    background-color: deepskyblue;
+    color: black;
+}
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+}
+body{
+    background-color: white;
+}
+h2{
+    background-color: black;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: aliceblue;
+}
+h3{
+    background-color: black;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: aliceblue;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+

@@ -1,0 +1,102 @@
+/*this is a single-line comment*/
+h1{
+    color: chartreuse;
+    text-align: center;
+    /* text-transform: capitalize; */
+    font-family: cursive;
+}
+p{
+    color: chartreuse;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color: black;
+}
+.cow{
+    color: aqua;
+    background-color: rgba(255, 99, 90, 0.2);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+body{
+    background-color: black;
+}
+.ok{
+    border-style: solid;
+    border: 20px 1px;
+    color: chartreuse;
+    text-align: center;
+    border-radius: 20px;
+}
+.just{
+    border-style: dashed;
+    border: 20px 1px;
+    color: deepskyblue;
+    text-align: center;
+    border-radius: 20px;
+}
+.me{
+    margin:right;
+    height: 20px;
+    width:20px ;
+}
+.cool{
+    border: 1px solid black;
+    background-color: aqua;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+/*padding and element width*/
+.beach{
+
+    width: 500px;
+    background-color: chartreuse;
+}
+/* this increas the size of the  */
+.fuckyou{
+    width: 700px;
+    padding: 25px;
+    background-color: yellow;
+}
+.you{
+    width: 300px;
+}
+.dum
+{
+    width: 300px;
+    box-sizing: border-box;
+    padding: 25px;
+    background-color: yellow;
+}
+.me{
+    height: 100px;
+    width: 500px;
+    background-color: chartreuse;
+    
+}
+/* working with max-width */
+.work{
+    max-width: 500px;
+    height:100px ;  
+    background-color: blue;
+
+}
+/* this div is box mobile */
+.cat{
+    background-color: greenyellow;
+    width: 300px;
+    border:15px double green ;
+    padding: 15px;
+    margin: 20px;
+    outline: dotted red;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+    color:red;
+    text-align: center;
+    letter-spacing: 5px;
+}
